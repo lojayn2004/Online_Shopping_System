@@ -1,0 +1,10 @@
+Problem Statement with the help of chat gpt:
+
+I’d like a simple online shopping system that I can run on my computer. It should allow users to create accounts and log in with a username and password. 
+Once logged in, users should be able to view a list of products, including their names, descriptions, prices, and available quantities. Users should also 
+be able to search for products and add them to their shopping cart. The cart should display the selected items, their quantities, and the total price, with
+options to update quantities or remove items. When ready to purchase, users should be able to check out and view a summary of their order history.
+
+Additionally, there should be an admin feature to manage products. The admin should be able to add new products, update details of existing products,
+and remove products from the system. The system should provide clear menus and instructions for both users and the admin, and handle any errors gracefully,
+such as trying to purchase more than available stock.
