@@ -1,0 +1,18 @@
+Usecase Name: Add Product To Shopping Cart
+Actors: Customer
+Entry Condition: Customer must be logged into his account
+Exit Condition: Product is added to shopping cart
+
+Flow of events: 
+1- Customer Enters the product parcode and quantity needed
+               2- system checks for the avaliable quantity
+               3- system shows a confirmation method
+4- Customer Confirms buying the product
+               5- System adds the product to the customer card and decreases its quantity
+Exceptions: 
+1- Customer Enters the product parcode and quantity needed
+               2- system cheks for parcode and it is incorrect, system Customer the user to renter a 
+                  valid parcode
+3- Customer renters the parcode and the quantity
+               2- system checks for the qunatity and it is unsuffient, so it shows
+                a message to the customer
