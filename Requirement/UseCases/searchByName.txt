@@ -1,0 +1,18 @@
+Usecase Name: Search by name
+Actors: Admin or customer
+
+Precondition: User is logged into his account
+Postcondition: search results are previewed to user
+
+Flow of events:
+1) user chooses search by name choice
+                 2) system prompts him for product name
+3) User Enters the product name
+                 4) system returns him the product info, if not found system could 
+                 recommend for him similar products
+
+
+Exceptions:
+3) User Enters an invalid name 
+                4) system asks him to re-enter a valid product name 
+              
