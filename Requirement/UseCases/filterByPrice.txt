@@ -1,0 +1,16 @@
+Usecase Name: Filter By price
+Actors: Admin or Customer
+
+Pre-Condition: User is logged into his account
+Post-Condition: A list of products within the given price range is returned
+
+Flow of events:
+1) The User chooses filter by price choice
+                   2) System prompts the user to enter lower and upper bound for price
+3) User enters the range 
+                   4) System checks for the products in the given range and displays them to the user
+
+Exceptions:
+3) User Enters an invalid range
+                  4) System prompts him to re-enter a correct range of numbers
+                  
