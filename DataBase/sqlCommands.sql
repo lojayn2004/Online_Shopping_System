@@ -10,8 +10,9 @@ create table Products(
 );
 
 create table ShoppingCart(
-    customerId int,
+        customerId int,
 	productId int,
+	quantity int default 1,
 	primary key(customerId, productId)
 
 );
