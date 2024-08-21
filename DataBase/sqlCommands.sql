@@ -21,14 +21,6 @@ create table Customer (
 	city varchar(50)
 );
 
-alter table [Admin]
-add constraint fk_admin foreign key(adminId) references [User](userId)
-on delete cascade;
-
-alter table [Customer]
-add constraint fk_customer foreign key(customerId) references [User](userId)
-on delete cascade;
-
 create table Products(
     productId int primary key identity(1, 1),
 	productName varchar(70),
@@ -52,7 +44,7 @@ FOREIGN KEY (customerId) REFERENCES customer(customerId);
 
 ALTER TABLE shoppingCart
 ADD CONSTRAINT shoppingCart_Product_fk 
-FOREIGN KEY (productId) REFERENCES products(productId);
+FOREIGN KEY (productId) REFERENCES products(productId) on delete cascade;
 
 INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
 VALUES ('Smartphone', 'Latest 5G smartphone with 128GB storage', 'Electronics', 699.99, 50);
