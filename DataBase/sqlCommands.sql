@@ -17,6 +17,34 @@ create table ShoppingCart(
 
 );
 
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Smartphone', 'Latest 5G smartphone with 128GB storage', 'Electronics', 699.99, 50);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Novel', 'Bestselling fiction novel', 'Books', 19.99, 100);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Sofa', 'Comfortable 3-seater sofa', 'Home', 499.99, 20);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Vitamin C', 'High potency Vitamin C supplement', 'Health', 29.99, 200);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Gold Necklace', '18K gold necklace with a diamond pendant', 'Jewelry', 1299.99, 10);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Refrigerator', 'Energy-efficient double-door refrigerator', 'Appliances', 899.99, 15);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Organic Pasta', 'Gluten-free organic pasta', 'Food', 4.99, 500);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('T-shirt', 'Cotton T-shirt with a cool print', 'Clothes', 19.99, 150);
+
+INSERT INTO Products (productName, productDescription, productCategory, productPrice, productQuantity)
+VALUES ('Running Shoes', 'Comfortable running shoes with good grip', 'Shoes', 79.99, 100);
+
+
 
 
 
