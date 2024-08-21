@@ -1,0 +1,16 @@
+Use Case Name: Login 
+Partcipating Actors: User(Admin or Customer) 
+Entry Condition: User has opened the Application
+Exit Condition: User is logged into his account
+
+Flow of Events: 
+1- User Chooses login option from the menu 
+           2 - System Asks Him for the user name and password
+3- User enters the name and password
+           4-System verifies the credentials 
+           5- User is directed to the home page
+
+Exceptions: 
+3- User enters the name and password
+           4- System verifies the credentials, No such account if found. 
+              the system displays an error message and prompts the user to re-enter their username and password. 

@@ -1,0 +1,15 @@
+Usecase Name: Add Product To Website
+
+Actors: Admin
+
+Entry Condition: Admin must be logged into his account
+Exit Condition: Product is added to Database successfully
+
+Flow of events: 
+1- Admin chooses add new product choice
+               2- system prompts him for product details
+3- Admin enters the product details
+               4- System adds the product to the database
+Exceptions: 
+3- Admins enter invalid product details
+              4- sytem shows a message for him to re-enter the details

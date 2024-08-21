@@ -1,0 +1,30 @@
+Functional Requirements: 
+
+1) Authentication and registration
+   - Admins and customers could create an account
+   - Admins and customers could login using the unique username and password
+2) Browsing products 
+   - Users should be able to view list of all products including 
+    (product name- quantity- price - description)
+3) Search products
+   - Users should be able to search the products either by Name or Category
+   - If product is not found system could recommend similar products
+   - Users could filter items by price
+4) Managing products
+   - Admin should be able to add, delete, and update product info
+5) Shopping cart items
+   - customer should be able to add and remove items from the cart
+   - customer should be able to view all cart contents
+
+Non-Functional Requirements:
+
+1) Performance
+ - The system must respond to user input within 1 second.
+2) Reliability
+  - The system must be capable of restoring user data in the event of a failure
+
+Constraints:
+
+1) Develop a console Application using c#
+2) Ms sql as a database
+  
